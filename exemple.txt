@@ -1,0 +1,60 @@
+Aymen{
+	
+	%%Definition d une variable composee
+	STRUCT{
+		FLOAT Boukala;
+		INTEGAR Himrane;
+		FLOAT Belhadi;
+	}Prof;
+	
+
+	
+	STRUCT{
+		FLOAT Sii;
+		INTEGAR Il;
+		FLOAT Rsd;
+		FLOAT : Mod[10],coeiff[10] ;
+	}Spec;
+		
+		
+    VAR{
+	  %%Declaration d une variable simple 
+	  CONST FLOAT C,C;
+	  FLOAT : Tab1[5],Tab2[5] ;
+	  INTEGAR : Tab3[5] ;
+	  CONST F = (-3.7);
+	  INTEGAR L,V;
+	  INTEGAR Z;
+	  FLOAT I;
+	  FLOAT W,A,B;
+	  STRUCT Prof E1,E2;
+	  STRUCT Spec S1,S2;
+	  }
+ 	  CODE{  
+	         A = 3.0;
+	         L = 1;
+			 B = 4.0;
+             IF((A == 3.0)){	  
+			   FOR(V:3:L:I*10){
+				  W = ((2*10)+(1+(-8))) / ((20+50)-(30+40));
+				  V = 5 + 5;
+				  Tab1[L] = W;
+				  E1.Belhadi = 25.0; %% ceci  est un commentaire
+				  S1.Il = 2;
+			  }
+			 }ELSE{ FOR(I:0:A:((W*10)+1)){
+				         B =  ((2*10)-(-2)) + N;
+						 Z = B;
+			            }
+			      }
+				  
+			 WHILE((L == 1)){
+				  L = 2;
+				  F = 17;
+				  
+				  Tab3[20] = A;
+			 }
+		  }
+}
+		  
+	  

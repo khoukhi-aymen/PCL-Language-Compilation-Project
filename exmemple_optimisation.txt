@@ -1,0 +1,27 @@
+Ffffffff{
+    VAR{
+	  FLOAT t6,t9,temp;
+	  FLOAT t10,t11,t12,t13;
+	  FLOAT t8,ttttt;
+      FLOAT t14,t15,t16,t17,t18;
+      FLOAT : A[100];
+	  CONST j1 = 10;
+	  }
+ 	  CODE{     t6 = 4*j1;
+                t8 = j1-1;
+                t9 = 2*t8;
+                temp = A[t9];
+                t10 = j1+1;
+                t11 = t10-1;
+				t16 = 10.0*4.0;
+                t12 = 4.0+(5.0*10.0); %% ceci  est un commentaire
+                t13 = A[t12];
+                t14 = j1-1;
+                t15 = 4*t14;
+                A[t15] = t13;
+                t16 = j1+1;
+                t17 = 1-1;
+                t18 = 4*t17;
+                A[t18] = temp;				
+	      }
+}

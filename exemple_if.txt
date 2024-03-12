@@ -1,0 +1,25 @@
+Ffffffff{
+    VAR{
+	  CONST FLOAT C;
+	  FLOAT : Tab1[5],Tab2[5] ;
+	  INTEGAR : Tab3[5] ;
+	  CONST F = 3.7;
+	  INTEGAR L,V;
+	  INTEGAR Z;
+	  FLOAT I;
+	  FLOAT W,A,B;
+	  }
+ 	  CODE{ 
+	         
+         		  
+             IF((F == 3.7)){	  
+			   
+				  W = ((2*10)+(1+(-8)))/(1-3)+ A;
+				  I = 5 + 5;
+				  Tab1[L] = W / (30.0*2-(20.0));
+			  }
+			 ELSE{ 
+				         B =  ((2*10)-(-2)) + W;
+			      }
+		  }
+}

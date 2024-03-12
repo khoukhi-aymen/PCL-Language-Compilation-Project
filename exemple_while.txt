@@ -1,0 +1,20 @@
+Ffffffff{
+    VAR{
+	  CONST FLOAT C;
+	  FLOAT : Tab1[5],Tab2[5] ;
+	  INTEGAR : Tab3[5] ;
+	  CONST F = 3.7;
+	  INTEGAR L,V;
+	  INTEGAR Z;
+	  FLOAT I;
+	  FLOAT W,A,B;
+	  }
+ 	  CODE{
+             W = 1.0;
+			 I = 10.0;
+			 
+             WHILE(	(I > 20) ){
+				 I = I-1;  
+			 }
+		  }
+}
