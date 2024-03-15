@@ -1,30 +1,26 @@
-# Projet de compilation du langage PCL Avec les Outils FLEX et  BISON 
+# PCL Language Compilation Project with FLEX and BISON Tools
 
-Le but de ce projet est de réaliser un mini-compilateur passant par les différentes phases de la compilation à savoir l'analyse lexicale en utilisant l'outil FLEX et l'analyse syntaxicosémantique en utilisant l'outil BISON. 
-La génération du code intermédiaire, l’optimisation ainsi que la génération du code machine se feront en langage C. 
-Les traitements parallèles concernant la gestion de la table des symboles ainsi que le traitement des différentes erreurs doivent être également réalisés lors des phases d'analyse du processus de compilation.
+The aim of this project is to develop a mini-compiler that goes through various compilation phases, including lexical analysis using the FLEX tool and syntax-semantics analysis using the BISON tool. Intermediate code generation, optimization, as well as machine code generation, will be implemented in the C language. Parallel processing for symbol table management and handling of different errors should also be implemented during the compilation process analysis phases.
+# Installation
 
+    1. Clone the repository.
+    2. Install FLEX and BISON tools.
 
+# Usage
 
-## Installation
-
-1. Cloner le dépôt
-2. installer les outils flex et bisnon
-
-## Utilisation
-1.ouvre le cmd ou se trouve le projet
-2. Exécuter les commandes suivantes
-    commande.bat
-    comp.ex < nom_fichier.txt
+    1. Open the command prompt in the project directory.
+    2. Run the following commands:
 
 
-## Licence
+    command.bat
+    comp.ex < <filename.txt>
 
-Ce projet est sous licence [MIT LICENSE]. Voir le fichier LICENSE.md pour plus de détails.
+# License
 
-## Auteurs
+This project is licensed under the [MIT License]. See the LICENSE.md file for more details.
+# Authors
 
-- Aymene khoukhi
+    -Aymene Khoukhi
 
  
  
